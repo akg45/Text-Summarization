@@ -9,7 +9,7 @@ from ext_sum import summarize
 
 
 def main():
-    st.markdown("<h1 style='text-align: center;'>Extractive Summary✏️</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align: center;'>Article Summary✏️</h1>", unsafe_allow_html=True)
 
     # Download model
     if not os.path.exists('checkpoints/mobilebert_ext.pt'):
